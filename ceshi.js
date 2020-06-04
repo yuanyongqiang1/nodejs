@@ -608,11 +608,11 @@ u、y、s都是新增的正则对象修饰符。
 //   }
 // };
 
-function foo() {
-  id : 123456
-  setTimeout(() => {
-    console.log('id:', this.id);
-  }, 100);
-}
+// function foo() {
+//   id : '123456'
+//   setTimeout(() => {
+//     console.log('id:', this.id);
+//   }, 100);
+// }
 
-foo()
+// foo()
